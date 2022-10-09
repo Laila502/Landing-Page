@@ -69,8 +69,8 @@ a{
 }
 
 button {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882F6;
+    border: 1px solid #3882F6;
     color: white;
     padding: 8px 30px;
     font-size: 16px;
@@ -116,7 +116,8 @@ button:hover, a:hover {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 36px;
+    font-weight: bolder;
     margin-bottom: 50px;
 }
 
@@ -124,3 +125,39 @@ h2 {
     font-size: 18px;
     color: #404040;
 }
+
+.container3 {
+    background-color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 700px;
+    height: 450px;
+    gap: 15px;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style:  italic;
+    font-weight: 100;
+    color: #1F2937;
+    
+
+}
+
+.author {
+    align-self: flex-end;
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
